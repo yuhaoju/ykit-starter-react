@@ -1,2 +1,2 @@
-# ykit-seed-react
-ykit starter with react
+# ykit-starter-react
+ykit demo project with react
