@@ -1,0 +1,14 @@
+a {
+    color: #09c;
+}
+
+.wrapper{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    left: 0;
+    right: 0;
+    color: #444;
+    text-align: center;
+    margin: -55px 0 0 0;
+}
