@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ykit-config-react": "^0.3.1"
+    "ykit-config-react": "^0.3.2"
   }
 }
