@@ -1,5 +1,5 @@
 # ykit-starter-react
-ykit-react 示例工程
+ykit-react 示例工程。
 
 ## Getting Started
 ```
@@ -15,4 +15,9 @@ $ npm run dev
 访问 http://127.0.0.1:8080/ykit-starter-react/index.html
 
 ## Build
+```
 $ ykit pack -m
+```
+
+## 关于 ykit
+访问 https://github.com/YMFE/ykit 来得到更多文档。
