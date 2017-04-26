@@ -1,17 +1,17 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import Link from './Link'
+import Link from './Link';
 
 // test async/await
 async function foo() {
-    return await 1
+    return await 1;
 }
 
 export default class HelloMessage extends React.Component {
     constructor(props) {
-        super(props)
-        this.state = {}
+        super(props);
+        this.state = {};
     }
 
     render() {
