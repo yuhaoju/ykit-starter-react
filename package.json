@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "cd .. && ykit server -p 8080",
+    "start": "ykit server -p 3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ykit-config-react": "^0.4.1"
+    "ykit-config-react": "^1.1.0"
   }
 }

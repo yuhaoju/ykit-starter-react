@@ -1,31 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Link from './Link';
-
-// test async/await
-async function foo() {
-    return await 1;
-}
-
-export default class HelloMessage extends React.Component {
+export default class App extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {};
     }
 
     render() {
         return (
-            <div className="wrapper">
-                <h1>Hello {this.props.name}</h1>
-                <Link/>
+            <div>
+                <img
+                    src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-256.png"
+                    style={{height: 240, width: 240}}
+                />
+                <h1>ykit-starter-react</h1>
+                <ul>
+                    <li><a href="https://facebook.github.io/react/docs/hello-world.html" target="_blank">Docs</a></li>
+                    <li><a href="https://facebook.github.io/react/tutorial/tutorial.html" target="_blank">Tutorial</a></li>
+                </ul>
             </div>
         )
     }
 }
 
 const render = () => ReactDOM.render(
-    <HelloMessage name="Ykit!"/>, document.getElementById('app')
+    <App/>, document.getElementById('app')
 );
 
 render();
