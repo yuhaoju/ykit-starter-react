@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ykit-config-react": "^1.1.0"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "ykit-config-react": "^2.2.3"
   }
 }
